@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website - EmmaTheAnalyst</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7187d7b2b8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span> Emma</span>TheAnalyst.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>I'm <span>Emmanuel</span><br> the Analyst</h1>
+            </div>
+
+
+        </div>
+    </div>
+
+<!-- -------------About----------- -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a skilled data analyst, capable of extracting valuable insights from complex data. 
+                        Through my expertise in R, SQL, Python, and Tableau for analytics, I can drive business decisions and assist 
+                        companies in achieving their objectives. <br> My strong analytical skills and keen attention to detail enable me to 
+                        provide actionable recommendations that optimize business processes and enhance productivity.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Analysis</span><br>Helping professionals make informed decisions.<br> Using Excel, R, Python and Pandas</li>
+                                <li><span>Data Mining & Web Scraping</span><br> Collect, extract, clean data from various sources <br>to deliver well-structured format for analysis.</li>
+                                <li><span>Dashboard Development</span><br>Develop interractive dashboards using Tableau and other <br>visualization tools, to assist clients understand data and KPIs.</li>
+                                <li><span>Report and Visualization</span><br>Microsoft Power BI, Tableau,  Google Analytics</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br><b>Data Analytics and Insights Associate</b> | Balm Technology, CA, USA</li>
+                                <li><span>2022</span><br><b>Student Consultant - IT Analyst</b> | A-I Health, TX, USA</li>
+                                <li><span>2019 - 2022</span><br><b>Data and Research Analyst</b> | C7 Technologies, NG</li>
+                                <li><span>2017 - 2019</span><br><b>Project Analyst </b>| Clature Projects, NG</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022 - Present</span><br>MSc. Analytics at Harrisburg University of Science and Technology, USA</li>
+                                    <li><span>2020</span><br>Web Developer Training from ApTech Institute, Nigeria </li>
+                                    <li><span>2015</span><br>BSc. Mathematics from Federal University of Agriculture Abeokuta, Nigeria</li>
+                                </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>2023</span> | Balm Technology, CA, USA</li>
+                            <li><span>2022</span><br><b>Student Consultant - IT Analyst</b> | A-I Health, TX, USA</li>
+                            <li><span>2019 - 2022</span><br><b>Data and Research Analyst</b> | C7 Technologies, NG</li>
+                            <li><span>2017 - 2019</span><br><b>Project Analyst </b>| Clature Projects, NG</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------My Work----------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-database"></i>
+                <h2>Dashboard and Reporting</h2>
+                <p> This is a description to this the analysis I carried out
+                    and....</p>
+                <a href="https://simplyemmanuel.github.io/World-Happiness-Analysis/">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data Analysis</h2>
+                <p> This is a description to this the analysis I carried out
+                    and....</p>
+                <a href="https://simplyemmanuel.github.io/Photography-Landing-Page/">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-cloud"></i>
+                <h2>Visualization and Cloud Computing</h2>
+                <p> This is a description to this the analysis I carried out
+                    and....</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------Portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.jpg">
+                    <div class="layer">
+                        <h3>Covid-19 Exploratory Data Analysis</h3>
+                        <p>This sales analysis is a report to show how many customers make 
+                        purchases, visit the store to make different order.</p>
+                        <a href="https://github.com/simplyEmmanuel/Covid-19DataAnalysis"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.jpg">
+                    <div class="layer">
+                            <h3>World Happiness Analysis</h3>
+                            <p>This sales analysis is a report to show how many customers make 
+                            purchases, visit the store to make different order.</p>
+                            <a href="https://simplyemmanuel.github.io/World-Happiness-Analysis/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                            <h3>Web Scraping with Python</h3>
+                            <p>This sales analysis is a report to show how many customers make 
+                            purchases, visit the store to make different order.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+            </div>
+            <a href="https://github.com/simplyEmmanuel?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------Contact Form------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> emmaikekwere@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>(+234)706-912-6884</p>
+                <div class="social-icons">
+                    <a href="https://github.com/simplyEmmanuel"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ikekwere-emmanuel/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/IkeDemanuel"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/iam_nuel_tech/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Emmanuel. Made with <i class="fas fa-heart"></i> by EmmaTheAnalyst </p>
+    </div>
+</div>
+
+
+<!-- -----------JavaScript------------ -->
+    <script>
+    
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+        }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        }
+
+</script>
+<!-- -----------Fetch API Script for Contact form------------ -->
+<script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyEsmrBX3z-RJx8pYRbc-AXGNw7qhVy2RF-0166OTJTG9ByiVGqwJTvhGOcg9-pD1l1/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg,innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+</html>
