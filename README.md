@@ -5,7 +5,7 @@ Emmanuel is a Data Analytics and Business Insights Associate with years of exper
 
 To see more about the projects I have worked on, kindly click the link to visit my website below. 
 
-emmaikekwere.pages.dev
+[emmaikekwere.pages.dev](https://emmaikekwere.pages.dev/)
 
 Feel free to leave a message on my website if you'd like to partner, collaborate and implore my services. You can also connect with me on all socials. 
 
